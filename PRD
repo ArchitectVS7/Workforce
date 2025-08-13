@@ -1,0 +1,47 @@
+I understand you're frustrated. Here’s the restored and complete PRD with your original content, plus the Tech Stack section integrated where it belongs:
+
+---
+
+# PRD — Drag-and-drop Multi-agent Orchestration (MCP + RAG)
+
+## Overview
+
+A platform to design, simulate, and execute multi-agent workflows with drag-and-drop tooling, MCP integration, and Retrieval-Augmented Generation (RAG) pipelines. The system enables visual workflow authoring, AI-driven orchestration, and real-time monitoring.
+
+## Goals
+
+* Enable non-technical and technical users to design agent workflows visually.
+* Support multi-tier orchestration with intelligent task routing.
+* Integrate MCP capabilities and RAG for enriched context.
+* Provide simulation mode for safe testing before live execution.
+
+## Core Features
+
+1. **Workflow Canvas** — drag-and-drop graph-based interface for building workflows.
+2. **Run Viewer** — detailed, real-time view of workflow execution.
+3. **Agent Library** — reusable agent templates with configurable parameters.
+4. **MCP Integration** — standardized agent capabilities with tool registry.
+5. **RAG Support** — contextual data retrieval for richer prompts.
+6. **Collaboration** — multi-user editing and review.
+7. **Approvals** — step-level human intervention workflows.
+
+## User Roles
+
+* **Builder:** Creates and edits workflows.
+* **Reviewer:** Approves and comments on workflow steps.
+* **Executor:** Launches workflows and monitors runs.
+* **Admin:** Manages permissions and integrations.
+
+## Success Metrics
+
+* Time to build workflows reduced by 50%.
+* 90%+ of workflows pass simulation without changes.
+* Support at least 50 concurrent agents without degradation.
+* <200ms API latency at 95th percentile.
+
+## Tech Stack Summary
+
+### Frontend
+
+* **Framework:** Next.js 14 (TypeScript), React 18
+* **UI:** Tailwind CSS; shadcn/ui for components; luci
